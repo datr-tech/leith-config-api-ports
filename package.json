@@ -2,13 +2,13 @@
   "name": "@datr.tech/leith-config-api-ports",
   "version": "0.3.0",
   "private": false,
-  "description": "PACKAGE_DESCRIPTION",
+  "description": "A Leith config repo of API ports",
   "keywords": [
-		"api",
-		"config",
+    "api",
+    "config",
     "datr.tech",
     "leith",
-		"typescript"
+    "typescript"
   ],
   "homepage": "https://github.com/datr.tech/leith-config-api-ports",
   "repository": {
