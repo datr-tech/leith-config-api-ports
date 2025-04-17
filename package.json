@@ -18,13 +18,13 @@
   "license": "MIT",
   "author": "admin <admin@datr.tech>",
   "type": "module",
+  "main": "./dist/index.js",
   "exports": {
     "default": "./dist/index.js",
     "development": "./src/index.ts",
     "types": "./dist/src/index.d.ts"
   },
   "scripts": {
-    "badges": "coverage-badges",
     "prebuild": "npm run clean",
     "build": "npx webpack --mode production",
     "prechangelog": "git add ./package.json",

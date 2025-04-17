@@ -23,7 +23,6 @@ jobs:
     - run: npm run test
     - run: npm run build
     - run: npm run test:it
-    - run: npm run build
 
   publish-npm:
     needs: build
