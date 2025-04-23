@@ -13,9 +13,9 @@
     "sourceMap": true,
     "target": "es5",
     "paths": {
-			"@app-lcap": ["./src/index.ts"],
-			"@app-lcap/*": ["./src/*"]
-		}
+      "@app-lcap": ["./src/index.ts"],
+      "@app-lcap/*": ["./src/*"]
+    }
   },
   "exclude": [".git", ".github", ".jest", "coverage", "node_modules", "dist"],
   "files": ["src/index.ts"],
