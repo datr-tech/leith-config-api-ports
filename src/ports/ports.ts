@@ -1,4 +1,4 @@
-import { IPorts } from '@app-leith-config-api-ports/interfaces';
+import { IPorts } from '@app-lcap/interfaces';
 
 export const ports: IPorts = {
   admin: 3010,

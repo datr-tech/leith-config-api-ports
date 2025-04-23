@@ -1,1 +1,6 @@
-!function(e,r){if("object"==typeof exports&&"object"==typeof module)module.exports=r();else if("function"==typeof define&&define.amd)define([],r);else{var t=r();for(var o in t)("object"==typeof exports?exports:e)[o]=t[o]}}(this,(()=>(()=>{"use strict";var e={299:(e,r)=>{Object.defineProperty(r,"__esModule",{value:!0}),r.ports=void 0,r.ports={admin:3010,dolomite:3020,entity:3030,freight:3040,granul8:3050,persona:3060,proc:3070,signature:3080}},543:(e,r,t)=>{Object.defineProperty(r,"__esModule",{value:!0}),r.ports=void 0;var o=t(299);Object.defineProperty(r,"ports",{enumerable:!0,get:function(){return o.ports}})}},r={};function t(o){var n=r[o];if(void 0!==n)return n.exports;var i=r[o]={exports:{}};return e[o](i,i.exports,t),i.exports}var o={};return(()=>{var e=o;Object.defineProperty(e,"__esModule",{value:!0}),e.ports=void 0;var r=t(543);Object.defineProperty(e,"ports",{enumerable:!0,get:function(){return r.ports}})})(),o})()));
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.ports = void 0;
+var ports_1 = require("./ports");
+Object.defineProperty(exports, "ports", { enumerable: true, get: function () { return ports_1.ports; } });
+//# sourceMappingURL=index.js.map
