@@ -6,7 +6,9 @@ CHANGELOG.md
 commitlint.config.mjs
 cspell.json
 eslint.config.mjs
-jest.config.json
+jest.config.integration.json
+jest.config.unit.json
+README.md
 tsconfig.json
 
 .github/

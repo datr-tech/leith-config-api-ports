@@ -1,1 +1,2 @@
-export { ports } from './ports';
+import { IPorts } from '../interfaces';
+export declare const ports: IPorts;
