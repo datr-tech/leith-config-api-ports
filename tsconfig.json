@@ -8,11 +8,13 @@
     "module": "commonjs",
     "moduleResolution": "node",
     "outDir": "./dist",
+    "paths": {
+      "@app-lcap/*": ["./src/*"]
+    },
     "resolveJsonModule": true,
     "skipLibCheck": true,
     "sourceMap": true,
-    "target": "es5",
-    "paths": { "@app-lcap/*": ["./src/*"] }
+    "target": "es5"
   },
   "exclude": [".git", ".github", ".jest", "coverage", "node_modules", "dist"],
   "files": ["src/index.ts"],
