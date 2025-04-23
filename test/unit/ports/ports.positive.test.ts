@@ -1,4 +1,4 @@
-import { ports } from '@app-lcap/ports';
+import { ports } from '@app-lcap';
 
 describe('ports', () => {
   describe('positive', () => {

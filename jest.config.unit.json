@@ -10,6 +10,7 @@
     }
   },
   "moduleNameMapper": {
+    "@app-lcap": "<rootDir>/src/index.ts",
     "@app-lcap/(.*)": "<rootDir>/src/$1"
   },
   "preset": "ts-jest",
