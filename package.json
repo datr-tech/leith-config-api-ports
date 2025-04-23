@@ -1,6 +1,6 @@
 {
   "name": "@datr.tech/leith-config-api-ports",
-  "version": "0.3.2",
+  "version": "0.4.0",
   "private": false,
   "description": "A Leith config repo of API ports",
   "keywords": [
